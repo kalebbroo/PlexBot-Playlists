@@ -1,0 +1,26 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.dll
+*.exe
+*.pdb
+
+## IDE
+.vs/
+.vscode/
+*.sln.docstates
+
+## OS
+.DS_Store
+Thumbs.db
+
+## LiteDB database files (generated at runtime)
+*.db
+Data/*.db
+
+## NuGet
+*.nupkg
+packages/
