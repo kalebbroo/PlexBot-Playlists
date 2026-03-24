@@ -4,6 +4,9 @@
 		<TargetFramework>net9.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
+		<!-- Required for plugin loading: generates .runtimeconfig.json and .deps.json
+		     so AssemblyDependencyResolver can locate NuGet dependencies at runtime -->
+		<EnableDynamicLoading>true</EnableDynamicLoading>
 	</PropertyGroup>
 
 	<ItemGroup>
